@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me - Edward Kinja Kagiri</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .about-hero {
+      background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    .about-hero h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+    .about-hero p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+    .about-section {
+      padding: 80px 5%;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.6fr;
+      gap: 60px;
+      align-items: start;
+    }
+.about-image img {
+  width: 100%;
+  max-width: 420px;     /* increased size */
+  border-radius: 12px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+  object-fit: cover;
+}
+  
+    .about-text h2 {
+      color: #1e3a8a;
+      font-size: 1.6rem;
+      margin: 30px 0 12px;
+    }
+    .about-text p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: #444;
+      margin-bottom: 16px;
+    }
+    .skills-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-top: 15px;
+    }
+    .skills-list span {
+      background: #e0e7ff;
+      color: #1e3a8a;
+      padding: 8px 14px;
+      border-radius: 6px;
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+    @media (max-width: 768px) {
+      .about-grid {
+        grid-template-columns: 1fr;
+      }
+      .about-image {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="nav-container">
+      <div class="logo">
+        <h2>Edward Kinja Kagiri</h2>
+      </div>
+      <div class="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="#">Projects</a>
+        <a href="about.html">About Me</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About Hero -->
+  <section class="about-hero">
+    <h1>About Me</h1>
+    <p>CNC Programmer & CAD/CAM Technician</p>
+  </section>
+
+  <!-- Main Content -->
+  <section class="about-section">
+    <div class="about-grid">
+
+      <div class="about-image">
+     <img src="me.jpg" alt="Edward Kinja Kagiri">
+      </div>
+
+      <div class="about-text">
+        <p>
+          I am <strong>Edward Kinja Kagiri</strong>, a passionate CNC Programmer and CAD/CAM Technician based in Nairobi, Kenya. 
+          I specialize in transforming digital designs into precise, high-quality physical components.
+        </p>
+
+        <h2>My Journey</h2>
+        <p>
+          My journey began with a strong interest in design and manufacturing. Over the years, I have developed practical skills in CAD modeling, CAM programming, and CNC machine operation, with a particular focus on Vectric Aspire and SolidWorks.
+        </p>
+
+        <h2>What I Offer</h2>
+        <p>
+          From decorative 3D carvings to functional parts, I focus on accuracy, clean finishes, and efficient toolpaths. I take pride in solving complex design challenges and delivering reliable results.
+        </p>
+<h2>Core Skills</h2>
+<div class="skills-list">
+  <span>Vectric Aspire</span>
+  <span>SolidWorks</span>
+  <span>Fusion 360</span>
+  <span>CorelDRAW</span>
+  <span>CNC Programming</span>
+  <span>3D Relief Carving</span>
+  <span>Toolpath Optimization</span>
+  <span>CAD/CAM Workflow</span>
+</div>
+    </div>
+  </section>
+<!-- CV Section -->
+<section style="padding: 70px 5%; background: #f8f9fa; text-align: center;">
+  <div style="max-width: 700px; margin: 0 auto;">
+    <h2 style="color: #1e3a8a; font-size: 2rem; margin-bottom: 15px;">My CV</h2>
+    <p style="color: #555; margin-bottom: 30px; font-size: 1.1rem;">
+      Click the button below to view or download my Curriculum Vitae.
+    </p>
+
+    <div>
+      <a href="cv.pdf" target="_blank" class="btn primary" style="margin-right: 12px;">
+        View CV
+      </a>
+      <a href="cv.pdf" download class="btn secondary" style="background: #1e3a8a; color: white; border: none;">
+        Download CV
+      </a>
+    </div>
+  </div>
+</section>
+</body>
+<!-- Contact Section -->
+<section id="contact" style="background: #f1f5f9; padding: 70px 5%; margin-top: 40px;">
+  <div style="max-width: 700px; margin: 0 auto; text-align: center;">
+    <h2 style="color: #1e3a8a; font-size: 2rem; margin-bottom: 15px;">Get In Touch</h2>
+    <p style="color: #555; margin-bottom: 30px; font-size: 1.1rem;">
+      Interested in working together or have a project in mind? Feel free to reach out.
+    </p>
+
+    <div style="display: flex; flex-direction: column; gap: 12px; font-size: 1.1rem;">
+      <p><strong>Email:</strong> edwardkinja3@gmail.com</p>
+      <p><strong>Phone:</strong> +254 713493169</p>
+      <p><strong>Location:</strong> Nairobi, Kenya</p>
+    </div>
+  </div>
+</section>
+<!-- ========== FOOTER ========== -->
+<footer style="background: #1e3a8a; color: white; text-align: center; padding: 35px 20px; margin-top: 60px;">
+  <h3 style="margin-bottom: 10px; font-size: 1.3rem;">Edward Kinja Kagiri</h3>
+  <p style="margin-bottom: 15px; opacity: 0.9;">CNC Programmer & CAD/CAM Technician | Nairobi, Kenya</p>
+  
+  <div style="margin-bottom: 18px;">
+    <a href="index.html" style="color: white; margin: 0 12px; text-decoration: none;">Home</a>
+    <a href="about.html" style="color: white; margin: 0 12px; text-decoration: none;">About</a>
+    <a href="#projects" style="color: white; margin: 0 12px; text-decoration: none;">Projects</a>
+  </div>
+
+  <p style="opacity: 0.7; font-size: 0.9rem;">&copy; 2026 Edward Kinja Kagiri. All rights reserved.</p>
+</footer>
+</html>
